@@ -1,0 +1,34 @@
+body{
+    background-color: green;
+}
+
+.scorpion{
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    position: absolute;
+    left: 400px;
+}
+.subzero{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 500px;
+}
+
+.raiden{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 600px;
+}
+
+.ermac{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 700px;
+}
+.ermac:hover,.raiden:hover,.scorpion:hover,.subzero:hover{
+    cursor: pointer;
+}
